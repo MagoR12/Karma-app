@@ -9,7 +9,7 @@
       Posts
     </h1>
     <ol class="breadcrumb">
-      <li><a href="{{ route('admin') }}"><i class="fa fa-tachometer-alt"></i>Inicio</a></li>
+      <li><a href="{{ route('admin') }}"><i class="fa fa-tachometer-alt"></i>Principal</a></li>
       <li><a class="active">Posts</a></li>
      
     </ol>
