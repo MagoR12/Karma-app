@@ -15,4 +15,4 @@ Route::get('/', function(){
     return view('home');
 });
 Route::get('/panel', 'Admin\AdminController@index')->name('admin');
-Route::resource('panel/posts', 'Admin\PostsController');
+Route::resource('panel/categorias','Admin\CategoriasController');

@@ -1,17 +1,10 @@
 <ul class="sidebar-menu" data-widget="tree">
     <li class="header">Menu</li>
     <!-- Optionally, you can add icons to the links -->
-    <li><a href="{{ url('panel/posts') }}"><i class="fa fa-passport"></i> <span>Posts</span></a></li>
-    <li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>
-    <li class="treeview">
-      <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
-        <span class="pull-right-container">
-            <i class="fa fa-angle-left pull-right"></i>
-          </span>
-      </a>
-      <ul class="treeview-menu">
-        <li><a href="#">Link in level 2</a></li>
-        <li><a href="#">Link in level 2</a></li>
-      </ul>
-    </li>
+    <li><a href="{{ url('panel/categorias') }}"><i class="fa fa-passport"></i> <span>Categorias</span></a></li>
+    <li><a href="{{ url('panel/galerias') }}"><i class="fa fa-link"></i> <span>Galeria Productos</span></a></li>
+    <li><a href="{{ url('panel/productos') }}"><i class="fa fa-link"></i> <span>Productos</span></a></li>
+    <li><a href="{{ url('panel/roles') }}"><i class="fa fa-link"></i> <span>Roles</span></a></li>
+    <li><a href="{{ url('panel/usuarios') }}"><i class="fa fa-link"></i> <span>Usuarios</span></a></li>
+    
 </ul>

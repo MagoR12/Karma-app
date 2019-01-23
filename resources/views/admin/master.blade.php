@@ -106,6 +106,7 @@
 <script src="{{ asset('admin/componentes/datatables.net-bs/js/dataTables.bootstrap.min.js')}}"></script>
 <!-- AdminLTE App -->
 <script src="{{ asset ('admin/js/adminlte.min.js')}}"></script>
+<!-- Javascript, funcionamiento del buscador y la paginacion -->
 <script src="{{ asset ('admin/js/table.js')}}"></script>
 </body>
 </html>
