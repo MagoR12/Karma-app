@@ -9,7 +9,7 @@
       Categorias
     </h1>
     <ol class="breadcrumb">
-      <li><a href="{{ route('admin') }}"><i class="fa fa-tachometer-alt"></i>Principal</a></li>
+      <li><a href="{{ route('admin') }}"><i class="fa fa-tachometer-alt"></i>Panel Control</a></li>
       <li><a class="active">Categoria</a></li>
      
     </ol>
@@ -17,22 +17,21 @@
 
   <section class="content">
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-lg-12">
 
   <div class="box">
     <div class="box-header">
       <h3 class="box-title">Listado Categoria</h3>
     </div>
-    <!-- /.box-header -->
-    <div class="box-body">
-        <div class="mailbox-controls" style="float:right;">
-            <div class="btn-group">
-            <a href="{{ url('panel/categorias/create') }}" id="btn-add" class="btn btn-default btn-md"><i class="fa fa-plus-circle"></i><br/><span>Nuevo</span></a>
-                <a href="admin/clientes/edit" id="btn-edit"class="btn btn-default btn-md"><i class="fa fa-edit"></i><br/><span>Editar</span></a>
-                <a href="admin/clientes/activate" id="btn-activate"class="btn btn-default btn-md"><i class="fa fa-check-circle"></i><br/><span>Activar</span></a>
-                <a href="admin/clientes/delete" id="btn-delete" class="btn btn-default btn-md"><i class="fa fa-minus-circle"></i><br/><span>Eliminar</spa></a>
-            </div><!-- /.btn-group -->
+    <!-- /.box-header -->  
+    <div class="box-body">  
+      
+        <div class="mailbox-controls" style="float: right;">
+        <a class="btn btn-success" href="{{ url('panel/categorias/create') }}">Crear Categoria <i class="fas fa-plus-circle"></i></a>
         </div>
+      
+      <div class="clearfix"></div>
+
       <table id="example2" class="table table-bordered table-striped">
         <thead>
         <tr>
@@ -49,9 +48,17 @@
             Explorer 4.0
           </td>
           <td>Win 95+</td>
-          <td> 4</td>
+          <td style="width: 10%;">
+            
+            <a class="btn btn-info btn-sm">
+                <i class="fas fa-edit"></i>
+            </a>
+            <a class="btn btn-danger btn-sm">
+                <i class="fas fa-trash-alt"></i>
+            </a>
+            
+          </td>
         </tr>
-       
         </tbody>
         <tfoot>
         <tr>
