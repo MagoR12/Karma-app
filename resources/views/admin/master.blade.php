@@ -7,15 +7,20 @@
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="{{ asset('admin/componentes/bootstrap/dist/css/bootstrap.min.css')}}">
+  
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="{{ asset('admin/componentes/font-awesome/css/all.min.css')}}">
+  <link rel="stylesheet" href="{{ asset('admin/componentes/font-awesome/css/all.css')}}">
+  
   <!-- Ionicons -->
   <link rel="stylesheet" href="{{ asset('admin/componentes/Ionicons/css/ionicons.min.css')}}">
   <!-- DataTables -->
   <link rel="stylesheet" href="{{ asset('admin/componentes/datatables.net-bs/css/dataTables.bootstrap.min.css')}}">
+   <!-- Select2 -->
+  <link rel="stylesheet" href="{{ asset('admin/componentes/select2/dist/css/select2.min.css') }}">  
   <!-- Theme style -->
-  <link rel="stylesheet" href="{{ asset('admin/css/AdminLTE.min.css')}}">
+  <link rel="stylesheet" href="{{ asset('admin/css/AdminLTE.css')}}">
   <link rel="stylesheet" href="{{ asset('admin/css/skins/skin-blue.min.css')}}">
+  
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -103,9 +108,11 @@
 <script src="{{ asset('admin/componentes/bootstrap/dist/js/bootstrap.min.js')}}"></script>
 <!-- DataTables -->
 <script src="{{ asset('admin/componentes/datatables.net/js/jquery.dataTables.min.js')}}"></script>
-<script src="{{ asset('admin/componentes/datatables.net-bs/js/dataTables.bootstrap.min.js')}}"></script>
+<script src="{{ asset('admin/componentes/datatables.net-bs/js/dataTables.bootstrap.js')}}"></script>
 <!-- AdminLTE App -->
 <script src="{{ asset ('admin/js/adminlte.min.js')}}"></script>
+<!-- Select2 -->
+<script src="{{ asset('admin/componentes/select2/dist/js/select2.full.min.js') }}"></script>
 <!-- Javascript, funcionamiento del buscador y la paginacion -->
 <script src="{{ asset ('admin/js/table.js')}}"></script>
 </body>
