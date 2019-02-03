@@ -12,7 +12,7 @@
   <!-- Ionicons -->
   <link rel="stylesheet" href="{{ asset('admin/componentes/Ionicons/css/ionicons.min.css')}}">
   <!-- DataTables -->
-<link rel="stylesheet" href="{{ asset('admin/componentes/datatables.net-bs/css/dataTables.bootstrap.min.css')}}">
+  <link rel="stylesheet" href="{{ asset('admin/componentes/datatables.net-bs/css/dataTables.bootstrap.min.css')}}">
   <!-- Theme style -->
   <link rel="stylesheet" href="{{ asset('admin/css/AdminLTE.min.css')}}">
   <link rel="stylesheet" href="{{ asset('admin/css/skins/skin-blue.min.css')}}">
