@@ -16,3 +16,8 @@ Route::get('/', function(){
 });
 Route::get('/panel', 'Admin\AdminController@index')->name('admin');
 Route::resource('panel/categorias','Admin\CategoriasController');
+Route::resource('panel/galleryproductos','Admin\GalleryProductosController');
+Route::resource('panel/categoriaproductos','Admin\CategoriasProductosController');
+Route::resource('panel/productos','Admin\ProductosController');
+Route::resource('panel/roles','Admin\RolesController');
+Route::resource('panel/usuarios','Admin\UsuariosController');

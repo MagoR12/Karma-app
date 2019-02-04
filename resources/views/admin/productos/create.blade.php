@@ -1,16 +1,16 @@
 @extends('admin.master')
 
 @section('content')
-@section('title', 'Formulario Categoría')
+@section('title', 'Formulario Productos')
 
 <section class="content-header">
     <h1>
-      Crear Categor&iacute;as
+      Crear  Productos
     </h1>
     <ol class="breadcrumb">
       <li><a href="{{ route('admin') }}"><i class="fa fa-dashboard"></i> Inicio</a></li>
-      <li><a href="{{ url('panel/categorias') }}">Categor&iacute;as</a></li>
-      <li class="active">Formulario categor&iacute;a</li>
+      <li><a href="{{ url('panel/productos') }}">Productos</a></li>
+      <li class="active">Formulario Productos</li>
     </ol>
 </section>
 
@@ -39,29 +39,13 @@
                           </div>
                       </div>
 
-                      <div class="col-lg-1">
-                          <label id="l_dependecy">Submenu</label>
-                          <div class="input-group margin-bottom-20">
-                              <div class="radio">
-                                  <label>
-                                    <input type="radio" name="dependecy" id="optionsRadiosSi" value="si" checked="">
-                                    Si
-                                  </label>
-                                  <label>
-                                      <input type="radio" name="dependecy" id="optionsRadiosNo" value="no" checked="">
-                                      No
-                                  </label>
-                              </div>
-                          </div>
-                      </div>
-
                       <div class="col-lg-3">
-                          <label id="l_id_dependency">Dependencia</label>
+                          <label id="l_id_categoria">Categoria</label>
                           <div class="input-group">
                               <div class="input-group-addon">
                                   <i class="fas fa-search"></i>
                               </div>
-                              <select class="form-control select2"  id="id_dependency" name="id_dependency">
+                              <select class="form-control select2"  id="id_categoria" name="id_categoria">
                                 <option value="">[Seleccionar]</option>
                               </select>
                           </div>
@@ -77,9 +61,14 @@
                   <!-- /.box-body -->
     
                   <div class="box-footer">
-                    
-                  <button type="submit" class="btn btn-primary" style="float: right">Enviar</button>
-                  <a class="btn btn-danger" href="{{ url('panel/categorias')}}" style="float: right">Cancelar</a>
+                    <div class="pull-right col-lg-3">
+                        <div class="col-lg-6">
+                            <a class="btn btn-danger" href="{{ url('panel/productos')}}" style="float: right">Cancelar <i class="fa fa-ban"></i></a>
+                        </div>
+                        <div class="col-lg-6">
+                                <button type="submit" class="btn btn-success">Guardar <i class="fa fa-save"></i></button>
+                        </div>
+                    </div>
                   </div>
                 </form>
               </div>

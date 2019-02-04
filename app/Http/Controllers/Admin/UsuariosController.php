@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class RolesController extends Controller
+class UsuariosController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +13,7 @@ class RolesController extends Controller
      */
     public function index()
     {
-        return view('admin.roles.index');
+        return view('admin.usuarios.index');
     }
 
     /**
@@ -23,7 +23,7 @@ class RolesController extends Controller
      */
     public function create()
     {
-        return view('admin.roles.create');
+        return view('admin.usuarios.create');
     }
 
     /**
@@ -34,7 +34,7 @@ class RolesController extends Controller
      */
     public function store(Request $request)
     {
-        return view('admin.roles.create');
+        //
     }
 
     /**

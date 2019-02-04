@@ -5,12 +5,12 @@
 
 <section class="content-header">
     <h1>
-      Crear Categor&iacute;as
+      Crear Categor&iacute;as Productos
     </h1>
     <ol class="breadcrumb">
       <li><a href="{{ route('admin') }}"><i class="fa fa-dashboard"></i> Inicio</a></li>
-      <li><a href="{{ url('panel/categorias') }}">Categor&iacute;as</a></li>
-      <li class="active">Formulario categor&iacute;a</li>
+      <li><a href="{{ url('panel/categoriproductos') }}">Categor&iacute;as Productos</a></li>
+      <li class="active">Formulario Categor&iacute;a Productos</li>
     </ol>
 </section>
 
@@ -77,10 +77,15 @@
                   <!-- /.box-body -->
     
                   <div class="box-footer">
-                    
-                  <button type="submit" class="btn btn-primary" style="float: right">Enviar</button>
-                  <a class="btn btn-danger" href="{{ url('panel/categorias')}}" style="float: right">Cancelar</a>
-                  </div>
+                        <div class="pull-right col-lg-3 col-xs-12 col-md-5 col-sm-6">
+                            <div class="col-lg-6">
+                                <a class="btn btn-danger" href="{{ url('panel/categoriaproductos')}}" style="float: right">Cancelar <i class="fa fa-ban"></i></a>
+                            </div>
+                            <div class="col-lg-6">
+                                    <button type="submit" class="btn btn btn-success">Guardar <i class="fa fa-save"></i></button>
+                            </div>
+                        </div>
+                      </div>
                 </form>
               </div>
               <!-- /.box -->
